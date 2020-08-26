@@ -1,0 +1,11 @@
+
+.fa-heart:not(.active) {
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+.fa-heart.active:not(.intermediate) {
+    color: black;
+}
+.fa-heart.active.intermediate {
+    color: grey;
+}
